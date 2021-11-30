@@ -1,6 +1,6 @@
 {
   "name": "@dozy/arre",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A mini-utility library for Array functions",
   "main": "lib/index.js",
   "types": "lib",
