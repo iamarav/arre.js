@@ -1,11 +1,15 @@
 {
-  "name": "arre",
-  "version": "0.1",
+  "name": "@dozy/arre",
+  "version": "0.1.0",
   "description": "A mini-utility library for Array functions",
   "main": "lib/index.js",
   "types": "lib",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamarav/arre.js"
+  },
   "scripts": {
-    "build": "tsc -p .",
+    "build": "rm -rf lib && tsc -p .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
