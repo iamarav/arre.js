@@ -1,6 +1,6 @@
 {
   "name": "@dozy/arre",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A mini-utility library for Array functions",
   "main": "lib/index.js",
   "types": "lib",
@@ -11,7 +11,8 @@
   "scripts": {
     "build": "rm -rf lib && tsc -p .",
     "test": "jest",
-    "test-watch": "jest --watchAll --collect-coverage"
+    "test-watch": "jest --watchAll --collect-coverage",
+    "upload": "echo \"Publishing package to npm registry\" && npm run build && npm publish"
   },
   "keywords": [],
   "author": "",
